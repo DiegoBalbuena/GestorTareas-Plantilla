@@ -1,12 +1,12 @@
 <template>
   <div class="container mt-5">
     <div class="text-center">
-      <h1 class="display-4 text-primary mb-4">Bienvenido a la Aplicación de Tareas con Vue</h1>
+      <h1 class="display-4 text-brown mb-4">Bienvenido a la Aplicación de Tareas con Vue</h1>
       <p class="lead text-secondary mb-4">
         Esta aplicación te permite gestionar tus tareas de manera eficiente. Puedes añadir nuevas tareas manualmente o extraerlas desde una API.
       </p>
       <img src="@/assets/logo.png" class="img-fluid mb-4 logo" alt="Vue logo" />
-      <h2 class="text-info mt-4">Secciones de la Aplicación</h2>
+      <h2 class="text-brown mt-4">Secciones de la Aplicación</h2>
       <p class="text-muted">
         <strong>Añadir Tarea:</strong> Permite ingresar nuevas tareas manualmente. <br />
         <strong>Lista de Tareas:</strong> Muestra todas las tareas extraídas desde la API, permitiendo marcarlas como completadas o eliminarlas. <br />
@@ -50,7 +50,10 @@ export default {
 h2 {
   font-weight: bold;
 }
-
+.text-brown {
+  color: #5a4e4b; /* Color marrón oscuro */
+}
+  
 .text-muted {
   font-size: 1rem;
 }
