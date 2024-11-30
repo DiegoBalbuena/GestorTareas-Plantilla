@@ -59,11 +59,13 @@
 
 .navbar {
   margin-bottom: 20px; /* Espacio inferior para separación */
+   background-color: #f5f5dc;
 }
 
 .nav-link {
   font-weight: bold;
   transition: color 0.3s;
+  color: #5a4e4b;
 }
 
 .nav-link:hover {
