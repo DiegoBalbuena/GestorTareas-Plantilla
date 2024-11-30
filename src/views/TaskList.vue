@@ -63,6 +63,6 @@ export default {
     font-weight: bold;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
     margin-bottom: 30px;
-    color: #8B4513;
+    color: #8B4513 !important;
 }
 </style>
